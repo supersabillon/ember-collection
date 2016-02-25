@@ -9,7 +9,8 @@ Router.map(function() {
   this.route('simple');
   this.route('scroll-position');
   this.route('mixed');
-  this.route('percentages');
+  this.route('percentages'); 
+  this.route('sticky-headers');
 });
 
 export default Router;

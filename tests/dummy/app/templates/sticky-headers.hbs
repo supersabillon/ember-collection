@@ -1,0 +1,9 @@
+<h3>Sticky Headers</h3>
+
+<div class="mixed" style="position:relative;height:500px;">
+  {{#ember-collection items=model estimated-height=800 estimated-width=1000 buffer=10 cell-layout=(percentage-columns-layout model.length columns 20) as |item index|}}
+    <div class="list-item">
+      {{item.name}}
+    </div>
+  {{/ember-collection}}
+</div>
